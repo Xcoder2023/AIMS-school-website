@@ -16,9 +16,9 @@ export const whyChooseUs = {
     "Our holistic approach combines quality education, Christian values, discipline and leadership to prepare students for lifelong success.",
 
   images: [
-    "/images/whyus1.jpg",
-    "/images/whyus2.jpg",
-    "/images/whyus3.jpg",
+    "/images/win.jpg",
+    "/images/win.jpg",
+    "/images/win.jpg",
   ],
 
   features: [

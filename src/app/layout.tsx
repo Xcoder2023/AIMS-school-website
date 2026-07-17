@@ -14,9 +14,41 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 });
 
+
 export const metadata: Metadata = {
-  title: "AIMS Presbyterian Seminary",
-  description: "Akanu Ibiam Memorial Seminary",
+  title: {
+    default: "Akanu Ibiam Memorial Seminary",
+    template: "%s | Akanu Ibiam Memorial Seminary",
+  },
+
+  description:
+    "Akanu Ibiam Memorial Seminary - Building leaders through academic excellence, Christian values, discipline, and innovation.",
+
+  authors: [
+    {
+      name: "Mathias Chikaodili Ede", 
+    },
+  ],
+
+  creator: "Mathias Chikaodili Ede", 
+
+  publisher: "Akanu Ibiam Memorial Seminary",
+
+  keywords: [
+    "Akanu Ibiam Memorial Seminary",
+    "AIMS",
+    "Secondary School",
+    "Boarding School",
+    "Christian School",
+    "Education",
+    "Nigeria",
+  ],
+
+  icons: {
+    icon: "/logo/aims-logo.jpg",
+    shortcut: "/logo/aims-logo.jpg",
+    apple: "/logo/aims-logo.jpg",
+  },
 };
 
 export default function RootLayout({
