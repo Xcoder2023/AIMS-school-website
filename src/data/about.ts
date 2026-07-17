@@ -6,7 +6,7 @@ export const about = {
   description:
     "Akanu Ibiam Memorial Seminary is dedicated to nurturing students through quality education, Christian values, discipline, leadership, and character development. We strive to prepare young people who are academically sound, morally upright, and spiritually grounded.",
 
-  image: "/images/about.jpg",
+  image: "/images/about.JPG",
 
   features: [
     "Academic Excellence",

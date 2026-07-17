@@ -17,8 +17,8 @@ export const campusLife = {
 
   images: [
     "/images/campus1.jpg",
-    "/images/campus2.jpg",
-    "/images/campus3.jpg",
+    "/images/campus2.JPG",
+    "/images/campus3.JPG",
   ],
 
   activities: [
