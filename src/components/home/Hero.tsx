@@ -10,17 +10,17 @@ import Container from "../ui/Container";
 
 const heroImages = [
   "/images/hero/carosual-1.jpg",
-  "/images/hero/carosual-2.jpg",
+  "/images/hero/carosual-2.JPG",
   "/images/hero/carosual-3.jpg",
-  "/images/hero/carosual-4.jpg",
-  "/images/hero/carosual-5.jpg",
-  "/images/hero/carosual-6.jpg",
+  "/images/hero/carosual-4.JPG",
+  "/images/hero/carosual-5.JPG",
+  "/images/hero/carosual-6.JPG",
   "/images/hero/carosual-7.jpg",
-  "/images/hero/carosual-8.jpg",
+  "/images/hero/carosual-8.JPG",
   "/images/hero/carosual-9.jpg",
   "/images/hero/carosual-10.jpg",
-  "/images/hero/carosual-11.jpg",
-  "/images/hero/carosual-12.jpg",
+  "/images/hero/carosual-11.JPG",
+  "/images/hero/carosual-12.JPG",
 ];
 
 export default function Hero() {
