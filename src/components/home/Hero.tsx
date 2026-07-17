@@ -36,6 +36,13 @@ export default function Hero() {
     return () => clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+  heroImages.forEach((src) => {
+    const img = new window.Image();
+    img.src = src;
+  });
+}, []);
+
   const previousSlide = () => {
     setCurrent((prev) =>
       prev === 0 ? heroImages.length - 1 : prev - 1
@@ -52,7 +59,7 @@ export default function Hero() {
     <section className="relative flex min-h-screen items-center overflow-hidden bg-slate-900">
 
       {/* Background Slider */}
-      <div
+      {/* <div
         className="absolute inset-0 flex transition-transform duration-1000 ease-in-out"
         style={{
           width: `${heroImages.length * 100}%`,
@@ -77,7 +84,26 @@ export default function Hero() {
             />
           </div>
         ))}
-      </div>
+      </div> */}
+
+      <div
+  className="absolute inset-0 flex transition-transform duration-1000 ease-in-out"
+  style={{
+    width: `${heroImages.length * 100}%`,
+    transform: `translateX(-${current * (100 / heroImages.length)}%)`,
+  }}
+>
+  {heroImages.map((image, index) => (
+    <div
+      key={index}
+      className="h-full flex-shrink-0 bg-cover bg-center bg-no-repeat"
+      style={{
+        width: `${100 / heroImages.length}%`,
+        backgroundImage: `url(${image})`,
+      }}
+    />
+  ))}
+</div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-900/30" />
