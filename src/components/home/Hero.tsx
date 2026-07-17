@@ -17,7 +17,7 @@ const heroImages = [
   "/images/hero/carosual-6.JPG",
   "/images/hero/carosual-7.jpg",
   "/images/hero/carosual-8.JPG",
-  "/images/hero/carosual-9.jpg",
+  "/images/hero/carosual-9.JPG",
   "/images/hero/carosual-10.jpg",
   "/images/hero/carosual-11.JPG",
   "/images/hero/carosual-12.JPG",
